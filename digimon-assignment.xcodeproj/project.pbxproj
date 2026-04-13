@@ -65,11 +65,15 @@
 		};
 		BBDF7C4F2F88FADF0032A209 /* digimon-assignmentTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "digimon-assignmentTests";
 			sourceTree = "<group>";
 		};
 		BBDF7C592F88FAE00032A209 /* digimon-assignmentUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "digimon-assignmentUITests";
 			sourceTree = "<group>";
 		};
@@ -317,13 +321,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-digimon-assignment-digimon-assignmentUITests/Pods-digimon-assignment-digimon-assignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-digimon-assignment-digimon-assignmentUITests/Pods-digimon-assignment-digimon-assignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -338,13 +338,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-digimon-assignment/Pods-digimon-assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-digimon-assignment/Pods-digimon-assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_digimon_assignment_digimon_assignmentUITests : NSObject
+@end
+@implementation PodsDummy_Pods_digimon_assignment_digimon_assignmentUITests
+@end

@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.11.1)
+  - Kingfisher (7.12.0)
+  - SkeletonView (1.30.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher (~> 7.0)
+  - SkeletonView
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - SkeletonView
+
+SPEC CHECKSUMS:
+  Alamofire: eec6cd8f73b242b59e34153a606a909eb9864b14
+  Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+
+PODFILE CHECKSUM: 439ac66f8dd9d731401d5244bdba47fda733280e
+
+COCOAPODS: 1.16.2

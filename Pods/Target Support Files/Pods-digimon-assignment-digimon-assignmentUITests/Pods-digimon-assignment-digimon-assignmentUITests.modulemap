@@ -1,0 +1,6 @@
+framework module Pods_digimon_assignment_digimon_assignmentUITests {
+  umbrella header "Pods-digimon-assignment-digimon-assignmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

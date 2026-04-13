@@ -221,7 +221,7 @@ final class DigimonListViewController: UIViewController {
             UIAction(title: "Semua Attribute") { [weak self] _ in
                 guard let self else { return }
                 self.viewModel.applyFilter(attribute: nil, level: self.viewModel.selectedLevel)
-                self.attributeButton.titleLabel?.text = "Attribute ▾"
+                self.updateButtonTitle(self.attributeButton, title: "Attribute ▾", color: .systemIndigo)
             }
         ]
 
@@ -229,7 +229,7 @@ final class DigimonListViewController: UIViewController {
             UIAction(title: attr.name!) { [weak self] _ in
                 guard let self else { return }
                 self.viewModel.applyFilter(attribute: attr.name!, level: self.viewModel.selectedLevel)
-                self.attributeButton.titleLabel?.text = "\(attr.name!) ▾"
+                self.updateButtonTitle(self.attributeButton, title: "\(attr.name!) ▾", color: .systemPurple)
             }
         }
 
@@ -242,7 +242,7 @@ final class DigimonListViewController: UIViewController {
             UIAction(title: "Semua Level") { [weak self] _ in
                 guard let self else { return }
                 self.viewModel.applyFilter(attribute: self.viewModel.selectedAttribute, level: nil)
-                self.levelButton.titleLabel?.text = "Level ▾"
+                self.updateButtonTitle(self.levelButton, title: "Level ▾", color: .systemIndigo)
             }
         ]
 
@@ -251,6 +251,7 @@ final class DigimonListViewController: UIViewController {
                 guard let self else { return }
                 self.viewModel.applyFilter(attribute: self.viewModel.selectedAttribute, level: lvl.name!)
                 self.levelButton.titleLabel?.text = "\(lvl.name!) ▾"
+                self.updateButtonTitle(self.levelButton, title: "\(lvl.name!) ▾", color: .systemPurple)
             }
         }
 
@@ -258,9 +259,15 @@ final class DigimonListViewController: UIViewController {
         levelButton.showsMenuAsPrimaryAction = true
         levelButton.isEnabled = true
     }
+    
+    private func updateButtonTitle(_ button: UIButton, title: String, color: UIColor) {
+        var config = button.configuration
+        config?.title = title
+        config?.baseForegroundColor = color
+        button.configuration = config
+    }
 }
 
-// MARK: - UICollectionViewDataSource
 extension DigimonListViewController: UICollectionViewDataSource {
 
     func collectionView(
