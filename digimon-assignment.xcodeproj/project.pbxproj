@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		07FAE7CFB1D8651758A3AA4A /* Pods_digimon_assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51B09984F410EFDC840CABC /* Pods_digimon_assignment.framework */; };
+		4D76AD9D9CA7FE14C1AB1749 /* Pods_digimon_assignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FC362A0F77D58254DF424B /* Pods_digimon_assignmentTests.framework */; };
+		53A24AD4029F844399B6DC43 /* Pods_digimon_assignment_digimon_assignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EEB2B125B82D94F921F5F79 /* Pods_digimon_assignment_digimon_assignmentUITests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BBDF7C4D2F88FADF0032A209 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,13 +30,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43A56FB2D434165071CDC40F /* Pods-digimon-assignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digimon-assignmentTests.release.xcconfig"; path = "Target Support Files/Pods-digimon-assignmentTests/Pods-digimon-assignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		540CC6F8706A4F3D297F5BFA /* Pods-digimon-assignment-digimon-assignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digimon-assignment-digimon-assignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-digimon-assignment-digimon-assignmentUITests/Pods-digimon-assignment-digimon-assignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6D645976C120AE52E6E594D4 /* Pods-digimon-assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digimon-assignment.debug.xcconfig"; path = "Target Support Files/Pods-digimon-assignment/Pods-digimon-assignment.debug.xcconfig"; sourceTree = "<group>"; };
+		9EEB2B125B82D94F921F5F79 /* Pods_digimon_assignment_digimon_assignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_digimon_assignment_digimon_assignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51B09984F410EFDC840CABC /* Pods_digimon_assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_digimon_assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDF7C362F88FADE0032A209 /* digimon-assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "digimon-assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDF7C4C2F88FADF0032A209 /* digimon-assignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "digimon-assignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDF7C562F88FAE00032A209 /* digimon-assignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "digimon-assignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB7B4473F8691756F42C9A8 /* Pods-digimon-assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digimon-assignment.release.xcconfig"; path = "Target Support Files/Pods-digimon-assignment/Pods-digimon-assignment.release.xcconfig"; sourceTree = "<group>"; };
+		DB5A00719A1B7FBAECDABF70 /* Pods-digimon-assignment-digimon-assignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digimon-assignment-digimon-assignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-digimon-assignment-digimon-assignmentUITests/Pods-digimon-assignment-digimon-assignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6FC362A0F77D58254DF424B /* Pods_digimon_assignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_digimon_assignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ECE71B45AA37EABF4A6BD1 /* Pods-digimon-assignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digimon-assignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-digimon-assignmentTests/Pods-digimon-assignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BBDF7C5E2F88FAE00032A209 /* Exceptions for "digimon-assignment" folder in "digimon-assignment" target */ = {
+		BB7C8BEF2F8C3E93001FA821 /* Exceptions for "digimon-assignment" folder in "digimon-assignment" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -43,7 +58,7 @@
 		BBDF7C382F88FADE0032A209 /* digimon-assignment */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				BBDF7C5E2F88FAE00032A209 /* Exceptions for "digimon-assignment" folder in "digimon-assignment" target */,
+				BB7C8BEF2F8C3E93001FA821 /* Exceptions for "digimon-assignment" folder in "digimon-assignment" target */,
 			);
 			path = "digimon-assignment";
 			sourceTree = "<group>";
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07FAE7CFB1D8651758A3AA4A /* Pods_digimon_assignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D76AD9D9CA7FE14C1AB1749 /* Pods_digimon_assignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53A24AD4029F844399B6DC43 /* Pods_digimon_assignment_digimon_assignmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F17B2D177D2104057D650C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B51B09984F410EFDC840CABC /* Pods_digimon_assignment.framework */,
+				9EEB2B125B82D94F921F5F79 /* Pods_digimon_assignment_digimon_assignmentUITests.framework */,
+				E6FC362A0F77D58254DF424B /* Pods_digimon_assignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B46E132530CAF8090614D085 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D645976C120AE52E6E594D4 /* Pods-digimon-assignment.debug.xcconfig */,
+				CBB7B4473F8691756F42C9A8 /* Pods-digimon-assignment.release.xcconfig */,
+				DB5A00719A1B7FBAECDABF70 /* Pods-digimon-assignment-digimon-assignmentUITests.debug.xcconfig */,
+				540CC6F8706A4F3D297F5BFA /* Pods-digimon-assignment-digimon-assignmentUITests.release.xcconfig */,
+				F7ECE71B45AA37EABF4A6BD1 /* Pods-digimon-assignmentTests.debug.xcconfig */,
+				43A56FB2D434165071CDC40F /* Pods-digimon-assignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BBDF7C2D2F88FADD0032A209 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +133,8 @@
 				BBDF7C4F2F88FADF0032A209 /* digimon-assignmentTests */,
 				BBDF7C592F88FAE00032A209 /* digimon-assignmentUITests */,
 				BBDF7C372F88FADE0032A209 /* Products */,
+				B46E132530CAF8090614D085 /* Pods */,
+				6F17B2D177D2104057D650C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBDF7C5F2F88FAE00032A209 /* Build configuration list for PBXNativeTarget "digimon-assignment" */;
 			buildPhases = (
+				0BC9A966E32ACD00AC9831B2 /* [CP] Check Pods Manifest.lock */,
 				BBDF7C322F88FADE0032A209 /* Sources */,
 				BBDF7C332F88FADE0032A209 /* Frameworks */,
 				BBDF7C342F88FADE0032A209 /* Resources */,
+				90656232220327C49AD9B6AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +169,6 @@
 				BBDF7C382F88FADE0032A209 /* digimon-assignment */,
 			);
 			name = "digimon-assignment";
-			packageProductDependencies = (
-			);
 			productName = "digimon-assignment";
 			productReference = BBDF7C362F88FADE0032A209 /* digimon-assignment.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBDF7C642F88FAE00032A209 /* Build configuration list for PBXNativeTarget "digimon-assignmentTests" */;
 			buildPhases = (
+				DEFB62A53CB03D3005F3D4C1 /* [CP] Check Pods Manifest.lock */,
 				BBDF7C482F88FADF0032A209 /* Sources */,
 				BBDF7C492F88FADF0032A209 /* Frameworks */,
 				BBDF7C4A2F88FADF0032A209 /* Resources */,
@@ -147,8 +191,6 @@
 				BBDF7C4F2F88FADF0032A209 /* digimon-assignmentTests */,
 			);
 			name = "digimon-assignmentTests";
-			packageProductDependencies = (
-			);
 			productName = "digimon-assignmentTests";
 			productReference = BBDF7C4C2F88FADF0032A209 /* digimon-assignmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBDF7C672F88FAE00032A209 /* Build configuration list for PBXNativeTarget "digimon-assignmentUITests" */;
 			buildPhases = (
+				ABA91FA2A55FA421D48232D6 /* [CP] Check Pods Manifest.lock */,
 				BBDF7C522F88FAE00032A209 /* Sources */,
 				BBDF7C532F88FAE00032A209 /* Frameworks */,
 				BBDF7C542F88FAE00032A209 /* Resources */,
+				73E2A9AAE8FDCEC655598234 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +214,6 @@
 				BBDF7C592F88FAE00032A209 /* digimon-assignmentUITests */,
 			);
 			name = "digimon-assignmentUITests";
-			packageProductDependencies = (
-			);
 			productName = "digimon-assignmentUITests";
 			productReference = BBDF7C562F88FAE00032A209 /* digimon-assignmentUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +286,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BC9A966E32ACD00AC9831B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-digimon-assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73E2A9AAE8FDCEC655598234 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-digimon-assignment-digimon-assignmentUITests/Pods-digimon-assignment-digimon-assignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-digimon-assignment-digimon-assignmentUITests/Pods-digimon-assignment-digimon-assignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-digimon-assignment-digimon-assignmentUITests/Pods-digimon-assignment-digimon-assignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90656232220327C49AD9B6AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-digimon-assignment/Pods-digimon-assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-digimon-assignment/Pods-digimon-assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-digimon-assignment/Pods-digimon-assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABA91FA2A55FA421D48232D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-digimon-assignment-digimon-assignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEFB62A53CB03D3005F3D4C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-digimon-assignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BBDF7C322F88FADE0032A209 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,19 +437,21 @@
 /* Begin XCBuildConfiguration section */
 		BBDF7C602F88FAE00032A209 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D645976C120AE52E6E594D4 /* Pods-digimon-assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5CB84CWJ6G;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "digimon-assignment/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,19 +471,21 @@
 		};
 		BBDF7C612F88FAE00032A209 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB7B4473F8691756F42C9A8 /* Pods-digimon-assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5CB84CWJ6G;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "digimon-assignment/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -405,7 +562,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEV $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -462,6 +619,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PROD;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -469,6 +627,7 @@
 		};
 		BBDF7C652F88FAE00032A209 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7ECE71B45AA37EABF4A6BD1 /* Pods-digimon-assignmentTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -491,6 +650,7 @@
 		};
 		BBDF7C662F88FAE00032A209 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43A56FB2D434165071CDC40F /* Pods-digimon-assignmentTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -513,6 +673,7 @@
 		};
 		BBDF7C682F88FAE00032A209 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB5A00719A1B7FBAECDABF70 /* Pods-digimon-assignment-digimon-assignmentUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -533,6 +694,7 @@
 		};
 		BBDF7C692F88FAE00032A209 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540CC6F8706A4F3D297F5BFA /* Pods-digimon-assignment-digimon-assignmentUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
